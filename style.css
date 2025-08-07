@@ -39,3 +39,19 @@ footer {
   width: 100%;
   bottom: 0;
 }
+nav ul {
+  display: flex;               /* Aktiviert Flexbox */
+  justify-content: center;     /* Zentriert die Menü-Links horizontal */
+  gap: 20px;                   /* Abstand zwischen den Links */
+  list-style: none;            /* Entfernt Listenpunkte */
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1a0dab;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
