@@ -11,16 +11,21 @@ header {
   text-align: center;
 }
 nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;             /* horizontal */
+    gap: 20px;                 /* Abstand zwischen den Links */
+    justify-content: center;   /* Zentriert die Links */
+    flex-wrap: wrap;           /* Bricht bei Bedarf um (für kleine Bildschirme) */
+}
+nav ul li {
+    margin: 0;
+}
 }
 nav ul li a {
     text-decoration: none;
-    color: #1a0dab;
+    color: #16a085;
     font-weight: bold;
 }
 nav ul li a:hover {
