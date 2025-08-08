@@ -78,17 +78,14 @@ nav ul li a:hover {
     color: #fff;
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
 }
-
 .werte h2 {
     color: cyan;
     margin-bottom: 15px;
 }
-
 .werte ul {
     list-style: none;
     padding: 0;
 }
-
 .werte ul li {
     margin: 10px 0;
     font-size: 1.1em;
