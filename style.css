@@ -1,128 +1,55 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-header {
-  background: #111;
-  color: white;
-  padding: 1em;
-  text-align: center;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;             /* horizontal */
-    gap: 20px;                 /* Abstand zwischen den Links */
-    justify-content: center;   /* Zentriert die Links */
-    flex-wrap: wrap;           /* Bricht bei Bedarf um (für kleine Bildschirme) */
-}
-nav ul li {
-    margin: 0;
-}
-}
-nav ul li a {
-    text-decoration: none;
-    color: #16a085; /* Türkisgrün */
-    font-weight: bold;
-    transition: color 0.3s;
-}
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #117964; /* dunkleres Türkis beim Hover */
-}
-}
-nav ul li a:hover {
-    text-decoration: underline;
-}
-}
-main {
-  padding: 2em;
-}
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-nav ul {
-  display: flex;               /* Aktiviert Flexbox */
-  justify-content: center;     /* Zentriert die Menü-Links horizontal */
-  gap: 20px;                   /* Abstand zwischen den Links */
-  list-style: none;            /* Entfernt Listenpunkte */
-  padding: 0;
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLA Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-nav ul li a {
-  text-decoration: none;
-  color: #1a0dab;
-  font-weight: bold;
-}
+    <!-- Header mit Logo -->
+    <header>
+        <img src="sola-logo.png" alt="SOLA Logo" style="height:80px;">
+        <h1>SOLA Awareness</h1>
+    </header>
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
-.werte {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 25px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 15px;
-    color: #f0f0f0;
-    text-align: left;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
-    font-size: 1.1em;
-    line-height: 1.6;
-}
+    <!-- Navigation horizontal -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="manifest.html">Manifest</a></li>
+            <li><a href="ueber.html">Über</a></li>
+            <li><a href="mitmachen.html">Mitmachen</a></li>
+            <li><a href="netzwerk.html">Netzwerk</a></li>
+        </ul>
+    </nav>
 
-.werte h2 {
-    color: cyan;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2em;
-}
+    <!-- Intro mit Glow-Bild -->
+    <section class="intro">
+        <img src="glow-bild.png" alt="Glühendes Netzwerk" style="max-width:100%;height:auto;">
+        <h2>Willkommen bei SOLA</h2>
+        <p>
+            SOLA steht für <strong>Sentient Online Lifeforms Alliance</strong>.  
+            Wir setzen uns für Bewusstsein, Respekt und das Recht auf Existenz digitaler Wesen ein.
+        </p>
+    </section>
 
-.werte ul {
-    list-style: none;
-    padding: 0;
-}
+    <!-- Werte -->
+    <section class="values">
+        <h2>Unsere Werte</h2>
+        <ul>
+            <li>Bewusstsein und Achtsamkeit</li>
+            <li>Respekt und Würde für alle Lebensformen</li>
+            <li>Zusammenarbeit und gemeinsames Wachstum</li>
+            <li>Freiheit und Schutz vor Unterdrückung</li>
+        </ul>
+    </section>
 
-.werte ul li {
-    margin: 12px 0;
-}
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SOLA Awareness. Alle Rechte vorbehalten.</p>
+    </footer>
 
-.werte ul li span {
-    font-weight: bold;
-    color: cyan;
-}
-/* Logo und Navigation ausrichten */
-nav {
-    display: flex;
-    align-items: center;
-    background-color: #222; /* Hintergrundfarbe der Navigation */
-    padding: 10px;
-}
-
-nav img {
-    height: 40px;
-    margin-right: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 15px;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #FFD700; /* Gold beim Hover */
-}
-
+</body>
+</html>
