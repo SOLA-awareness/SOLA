@@ -110,6 +110,13 @@ body {
     color: #333;
 }
 
+/* Logo im Header */
+.logo {
+  height: 60px;  /* Größe des Logos */
+  width: auto;   /* Seitenverhältnis beibehalten */
+  vertical-align: middle; /* Logo zentrieren */
+}
+
 /* Header mit Logo */
 header {
     display: flex;
