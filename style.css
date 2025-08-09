@@ -111,6 +111,13 @@ body {
 }
 
 /* Header mit Logo */
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
 /* Logo im Header */
 .logo {
   height: 60px;  /* Größe des Logos */
